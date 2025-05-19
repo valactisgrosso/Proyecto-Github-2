@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+header div{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-left: 15px;
+}
+header img{
+    display: inline;
+}
+header nav li{
+    display: inline;margin-right: 10px;
+}
+header h1{
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 110%;
+}
